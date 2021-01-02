@@ -1,0 +1,54 @@
+html {
+scroll-behavior: smooth;
+}  
+body{
+text-align: center;
+background: linear-gradient(#ddff00 0%,#66ff00 100%,#00ff73 50%);
+}
+ul li {
+list-style: none;
+float: left;
+display: inline-block;
+background-color: white;
+}
+ul li a {
+display: inline-block;  
+text-decoration: none;
+font-size: 30px;
+font-family: calibri;
+color: black;
+padding: 0 10px;
+}
+a:hover {
+background-color: black;
+color: white;
+}
+.menu {
+position: fixed;
+}   
+h1{
+	font-family: comic;
+	font-size: 30px;
+}
+nav{
+    background: #fcba03;
+    background: linear-gradient(#00ffd0 0%,#00a6ff 100%);
+}
+#img1{
+	border: solid;
+	border-radius: 20px;
+	width: 200px;
+	height: 200px;
+}
+#img1:hover{
+	height: 400px;
+	width: 400px;
+}
+#img2{
+	height: 300px;
+	width: 200px;
+}
+#img2:hover{
+	height: 400px;
+	width: 250px;
+}
